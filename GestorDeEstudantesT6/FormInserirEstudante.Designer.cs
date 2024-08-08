@@ -192,35 +192,38 @@
             // 
             // buttonEnviarFoto
             // 
+            this.buttonEnviarFoto.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonEnviarFoto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEnviarFoto.Location = new System.Drawing.Point(87, 451);
             this.buttonEnviarFoto.Name = "buttonEnviarFoto";
             this.buttonEnviarFoto.Size = new System.Drawing.Size(138, 51);
             this.buttonEnviarFoto.TabIndex = 18;
             this.buttonEnviarFoto.Text = "Enviar Foto";
-            this.buttonEnviarFoto.UseVisualStyleBackColor = true;
+            this.buttonEnviarFoto.UseVisualStyleBackColor = false;
             this.buttonEnviarFoto.Click += new System.EventHandler(this.buttonEnviarFoto_Click);
             // 
             // buttonCancelar
             // 
+            this.buttonCancelar.BackColor = System.Drawing.Color.RosyBrown;
             this.buttonCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCancelar.Location = new System.Drawing.Point(164, 515);
             this.buttonCancelar.Name = "buttonCancelar";
             this.buttonCancelar.Size = new System.Drawing.Size(135, 51);
             this.buttonCancelar.TabIndex = 19;
             this.buttonCancelar.Text = "Cancelar";
-            this.buttonCancelar.UseVisualStyleBackColor = true;
+            this.buttonCancelar.UseVisualStyleBackColor = false;
             this.buttonCancelar.Click += new System.EventHandler(this.buttonCancelar_Click);
             // 
             // buttonCadastrar
             // 
+            this.buttonCadastrar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCadastrar.Location = new System.Drawing.Point(12, 515);
             this.buttonCadastrar.Name = "buttonCadastrar";
             this.buttonCadastrar.Size = new System.Drawing.Size(135, 51);
             this.buttonCadastrar.TabIndex = 20;
             this.buttonCadastrar.Text = "Cadastrar";
-            this.buttonCadastrar.UseVisualStyleBackColor = true;
+            this.buttonCadastrar.UseVisualStyleBackColor = false;
             this.buttonCadastrar.Click += new System.EventHandler(this.buttonCadastrar_Click);
             // 
             // FormInserirEstudante

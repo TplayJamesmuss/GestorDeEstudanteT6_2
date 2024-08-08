@@ -56,35 +56,38 @@
             // 
             // buttonSalvar
             // 
+            this.buttonSalvar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSalvar.Location = new System.Drawing.Point(14, 527);
             this.buttonSalvar.Name = "buttonSalvar";
             this.buttonSalvar.Size = new System.Drawing.Size(135, 51);
             this.buttonSalvar.TabIndex = 36;
             this.buttonSalvar.Text = "Salvar";
-            this.buttonSalvar.UseVisualStyleBackColor = true;
+            this.buttonSalvar.UseVisualStyleBackColor = false;
             this.buttonSalvar.Click += new System.EventHandler(this.buttonSalvar_Click);
             // 
             // buttonApagar
             // 
+            this.buttonApagar.BackColor = System.Drawing.Color.RosyBrown;
             this.buttonApagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonApagar.Location = new System.Drawing.Point(166, 527);
             this.buttonApagar.Name = "buttonApagar";
             this.buttonApagar.Size = new System.Drawing.Size(135, 51);
             this.buttonApagar.TabIndex = 35;
             this.buttonApagar.Text = "Apagar";
-            this.buttonApagar.UseVisualStyleBackColor = true;
+            this.buttonApagar.UseVisualStyleBackColor = false;
             this.buttonApagar.Click += new System.EventHandler(this.buttonApagar_Click);
             // 
             // buttonEnviarFoto
             // 
+            this.buttonEnviarFoto.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonEnviarFoto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEnviarFoto.Location = new System.Drawing.Point(89, 463);
             this.buttonEnviarFoto.Name = "buttonEnviarFoto";
             this.buttonEnviarFoto.Size = new System.Drawing.Size(138, 51);
             this.buttonEnviarFoto.TabIndex = 34;
             this.buttonEnviarFoto.Text = "Enviar Foto";
-            this.buttonEnviarFoto.UseVisualStyleBackColor = true;
+            this.buttonEnviarFoto.UseVisualStyleBackColor = false;
             this.buttonEnviarFoto.Click += new System.EventHandler(this.buttonEnviarFoto_Click);
             // 
             // pictureBoxFoto
@@ -96,6 +99,7 @@
             this.pictureBoxFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxFoto.TabIndex = 33;
             this.pictureBoxFoto.TabStop = false;
+            this.pictureBoxFoto.Click += new System.EventHandler(this.pictureBoxFoto_Click);
             // 
             // textBoxEndereco
             // 
@@ -252,6 +256,7 @@
             this.buttonBuscar.TabIndex = 39;
             this.buttonBuscar.Text = "Buscar";
             this.buttonBuscar.UseVisualStyleBackColor = true;
+            this.buttonBuscar.Click += new System.EventHandler(this.buttonBuscar_Click);
             // 
             // FormAtualizarApagarAlunos
             // 
